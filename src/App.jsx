@@ -9,7 +9,7 @@ export default function App() {
   const [idBusca, setIdBusca] = useState("");
   const [usuarioEncontrado, setUsuarioEncontrado] = useState(null);
   const [frase, setFrase] = useState("");
-  const [mensagemConfissao, setMensagemConfissao] = useState("");
+
   const [statusApi, setStatusApi] = useState("Conectando...");
   const [erroCadastro, setErroCadastro] = useState("");
 
